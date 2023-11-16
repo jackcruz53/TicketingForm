@@ -1,0 +1,64 @@
+.band-form-component{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .band-form-component-left{
+        display: flex;
+        flex-direction: column;
+        padding: 2%;
+        justify-content: flex-start;
+        width: 40%;
+        /* div{
+            display: flex;
+            align-items: center;
+        } */
+
+    }
+    .band-form-component-right{
+        background: lightgrey;
+        margin-top: 10%;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding: 2%;
+        width: 60%;
+        .ticket-type-selector{
+            display: flex;
+            flex-direction: column;
+            .ticket-info{
+                display: flex;
+                border-bottom: 2px solid black;
+                padding-top: 5px;
+                align-items: center;
+                .quantity-input{
+                    border-color: darkgray;
+                    justify-content: center;
+                    height: 45px;
+                    width: 45px;
+                    font-size: larger;
+                }
+            }
+            .ticket-type-selector-total{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                font-size: x-large;
+            }
+        }
+        .payment-info{
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            padding: 3px;
+        }
+
+        .submit-button{
+            width: 50%;
+            cursor: pointer;
+        }
+    }
+
+}
+img{
+    max-width: 30%;
+    max-height: 30%;
+}
